@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+table, th, td{
+border-bottom: 2px solid black;
+border-top: 2px solid black;
+border-collapse: collapse;
+
+}
+table{
+    width: 70%;
+    margin: auto;
+}
+th{
+background-color: steelblue;
+padding: 10px;
+}
+tr:nth-child(odd){
+background-color: gray;
+}
+td:nth-child(2){
+border-right: 1px solid gray;
+font-weight: bold;
+}
+td:nth-child(1){
+font-weight: bold;
+}
